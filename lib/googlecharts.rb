@@ -1,2 +1,2 @@
 require 'gchart'
-Googlecharts = Gchart unless Object.const_defined? 'Googlechart'
+Googlecharts = Gchart::Base unless Object.const_defined? 'Googlechart'
